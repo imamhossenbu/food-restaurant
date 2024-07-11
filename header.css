@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    box-shadow: 5px 5px  10px #00000033;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+}
+.search a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.cart-image{
+    height: 30px;
+    border-left: 1px solid #ADADAD;
+    border-width: 2px;
+    display: flex;
+   
+    align-items: center;
+   
+}
+#cart-image{
+    height: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+.nav-head{
+    padding-left: 200px;
+}
+.nav-head a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.header-banner-container{
+    display: flex;
+}
+.header-banner{
+    padding: 60px 0;
+}
+.header-banner-desc{
+    width: 100%;
+    padding: 20px 0px;
+}
+.header-bike{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    background-color: #F5DDC4;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+.header-bike img{
+    height: 35px;
+}
+.header-bike p{
+    color: #F48E28;
+    font-weight: 600;
+}
+.banner-desc{
+    padding: 40px 0px;
+}
+.banner-desc h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.new-style{
+    color: #F48E28;
+}
+.banner-desc p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+}
+.header-button{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+}
+.header-button button{
+    padding: 15px 25px;
+    background-color: #F48E28;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-button img{
+    padding-left: 15px;
+}
+.header-button p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-image{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 100px;
+    row-gap: 20px;
+    column-gap: 10px;
+    padding-top: 40px;
+    height: 550px;
+}
+.banner-image{
+    width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.069);
+    border-radius: 10px;
+}
+.banner-image img{
+    height: 150px;
+    width: 100%;
+}
+.price{
+    font-weight: 600;
+}
