@@ -68,9 +68,10 @@
 }
 .star{
     display: flex;
+    width: 100%;
 }
 .star img{
-    width: 20%;
+    width: 30%;
 }
 .cart{
     padding: 12px 12px;
@@ -166,6 +167,19 @@
 .client-image img{
     width: 100%;
     margin-top: 20px;
+}
+.client-arrow{
+    position: relative;
+}
+.arrow1{
+    position: absolute;
+    right: 230px;
+    bottom: 40px;
+}
+.arrow2{
+    position: absolute;
+    left: 230px;
+    bottom: 40px;
 }
 .main-footer{
     width: 100%;

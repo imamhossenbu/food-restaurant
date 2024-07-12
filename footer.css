@@ -1,0 +1,47 @@
+footer{
+    width: 80%;
+    margin: 0 auto;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.footer-card1{
+    width: 25%;
+}
+.fot-para{
+    padding: 20px 0;
+    opacity: 0.5;
+    line-height: 23px;
+}
+.footer-card1 a img{
+    width: 10%;
+    padding-right: 10px;
+}
+.fot-head{
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+.input-email{
+    position: relative;
+}
+.input-email input{
+    padding: 12px 30px 13px 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.429);
+}
+.input-img{
+    position: absolute;
+    width: 10%;
+    left: 165px;
+    bottom: 0px;
+    top: 3px;
+
+    
+}
+.input-img img{
+    border-radius: 50%;
+}

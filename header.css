@@ -61,6 +61,9 @@
 }
 .header-banner-container{
     display: flex;
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .header-banner{
     padding: 60px 0;
