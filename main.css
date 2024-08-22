@@ -29,7 +29,7 @@
 .address p{
     font-size: 12px;  
 }
-.location{
+.location,.phone{
     padding: 4px 6px;
     border-radius: 50%;
     /* border: 1px solid red; */
