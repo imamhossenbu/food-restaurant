@@ -8,11 +8,16 @@
     width: 80%;
     margin: 0 auto;
 }
-
+p{
+    font-size: 14px;
+}
 .nav-container{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
+   
+    display: grid;
     align-items: center;
+    grid-template-columns: repeat(3,1fr);
     padding: 20px 0;
 }
 .search-container{
@@ -22,6 +27,7 @@
     box-shadow: 5px 5px  10px #00000033;
     border-radius: 5px;
     padding: 0 10px;
+    /* border: 1px solid red; */
 }
 .search{
     display: flex;
@@ -40,19 +46,15 @@
     border-left: 1px solid #ADADAD;
     border-width: 2px;
     display: flex;
-   
     align-items: center;
    
 }
 #cart-image{
     height: 60px;
     padding-left: 20px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;   
 }
-.nav-head{
-    padding-left: 200px;
-}
+
 .nav-head a{
     padding: 0 20px;
     text-decoration: none;
@@ -61,12 +63,15 @@
 }
 .header-banner-container{
     display: flex;
+    align-items: center;
+    gap: 60px;
     background-image: url("./bg.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 .header-banner{
     padding: 60px 0;
+    width: 60%;
 }
 .header-banner-desc{
     width: 100%;
@@ -126,24 +131,37 @@
     font-size: 20px;
     font-weight: 600;
 }
+.header-content{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header-image{
-    width: 80%;
+    width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 100px;
+    grid-template-columns: repeat(2,1fr);
+    /* margin-left: 100px; */
     row-gap: 20px;
     column-gap: 10px;
-    padding-top: 40px;
-    height: 550px;
+    padding: 40px 0;
+    /* height: 550px; */
 }
 .banner-image{
     width: 100%;
-    text-align: center;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.069);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(204, 204, 204, 0.316);
     border-radius: 10px;
+    padding: 10px;
+}
+.banner img{
+    margin-bottom: 35px;
 }
 .banner-image img{
-    height: 150px;
+    /* height: 150px; */
     width: 100%;
 }
 .price{

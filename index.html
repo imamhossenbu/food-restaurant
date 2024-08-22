@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://kit.fontawesome.com/5ba82f8be8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header-container">
@@ -14,20 +16,23 @@
            <div>
             <img src="./image1.png" alt="">
            </div>
-        <div class="nav-head">
+           <div class="nav-head">
             <a href="">Home</a>
             <a href="">Cart</a>
            </div>
-          <div class="search-container">
+           <div class="search-container">
             <div class="search">
                 <img src="./image3.png" alt="">
                 <a href="">Search</a>
-               </div>
-               <div class="cart-image">
+            </div>
+            <div class="cart-image">
                 <div>
                     <img id="cart-image" src="./image2.png" alt="">
-                </div>
-               </div>
+            </div>
+           </div>
+          </div>
+          <div>
+            <!-- <i class="fa-solid fa-bars"></i> -->
           </div>
         </section>
         <section class="header-banner-container">
@@ -47,54 +52,60 @@
                     <div class="header-button">
                         <button>Order Now</button>
                         <img src="./play.png" alt="">
-                        <p>Order Processs</p>
+                        <p>Order Process</p>
                     </div>
                 </div>
-                <div class="header-image">
-                    <div class="banner-image">
-                        <img src="./head1.png" alt=""> 
-                        <h3>Burger</h3>
-                        <p>Mushroom Sauce</p>
-                        <p class="price"><span style="color: red;">$</span> 5.15</p>
-                    </div>
-                    <div class="banner-image">
-                        <img src="./head2.png" alt=""> 
-                        <h3>Food Combo</h3>
-                        <p>Mushroom Sauce </p>
-                        <p class="price"><span style="color: red;">$</span> 9.15</p>
-                    </div>
-                    <div class="banner-image">
-                        <img src="./head3.png" alt=""> 
-                        <h3>Pizza</h3>
-                        <p>Mushroom Sauce</p>
-                        <p class="price"><span style="color: red;">$</span> 6.15</p>
-                    </div>
-                    <div class="banner-image">
-                        <img src="./head4.png" alt=""> 
-                        <h3>Cake</h3>
-                        <p>Mushroom Sauce</p>
-                        <p class="price"><span style="color: red;">$</span> 5.15</p>
+                <div class="header-content">
+                    <div class="header-image">
+                        <div class="banner-image">
+                            <img src="./head1.png" alt=""> 
+                            <h3>Burger</h3>
+                            <p>Mushroom Sauce</p>
+                            <p class="price"><span style="color: red;">$</span> 5.15</p>
+                        </div>
+                        <div class="banner-image banner">
+                            <img src="./head2.png" alt=""> 
+                            <h3>Food Combo</h3>
+                            <p>Mushroom Sauce </p>
+                            <p class="price"><span style="color: red;">$</span> 9.15</p>
+                        </div>
+                        <div class="banner-image">
+                            <img src="./head3.png" alt=""> 
+                            <h3>Pizza</h3>
+                            <p>Mushroom Sauce</p>
+                            <p class="price"><span style="color: red;">$</span> 6.15</p>
+                        </div>
+                        <div class="banner-image">
+                            <img src="./head4.png" alt=""> 
+                            <h3>Cake</h3>
+                            <p>Mushroom Sauce</p>
+                            <p class="price"><span style="color: red;">$</span> 5.15</p>
+                        </div>
                     </div>
                 </div>
         </section>
     </header>
     <main class="main-container">
-        <section class="address-container">
-            <div class="address">
-                <img src="./icon1.png" alt=""> 
-                <h6>Today 10:00am - 10:00pm</h6>
-                <p>Working time</p>
+        <section class="address-content">
+            <div class="address-container">
+                <div class="address">
+                    <img src="./icon1.png" alt=""> 
+                    <h6>Today 10:00am - 10:00pm</h6>
+                    <p>Working time</p>
+                </div>
+                <div class="address">
+                    <div class="location">
+                        <i class="fa-thin fa-location-dot"></i></i>
+                    </div>
+                    <h6>Mohammadpur, Dhaka</h6>
+                    <p>Our Location</p>
+                </div>
+                <div class="address" id="address">
+                    <img src="./icon3.png" alt=""> 
+                    <h6>+88 017 0000 0000</h6>
+                    <p>Phone Number</p>
+                </div>  
             </div>
-            <div class="address">
-                <img src="./icon1.png" alt=""> 
-                <h6>Mohammadpur, Dhaka</h6>
-                <p>Our Location</p>
-            </div>
-            <div class="address" id="address">
-                <img src="./icon1.png" alt=""> 
-                <h6>+88 017 0000 0000</h6>
-                <p>Phone Number</p>
-            </div>  
         </section>
         <div class="product-head">
             <p>Product</p>
@@ -107,11 +118,12 @@
                 </div>
               <div class="product-desc">
                 <div>
-                    <h4>Gyro Sandwhic</h4>
+                    <h4>Gyro Sandwich</h4>
                     <button class="cart">Add To Cart</button>
                 </div>
                 <div class="rating">
-                    <div class="star"><img src="./star.png" alt="">
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
                         <p>4.9</p>
                     </div>
                     <p>$15.00</p>
@@ -128,7 +140,7 @@
                     <button class="cart">Add To Cart</button>
                 </div>
                 <div class="rating">
-                    <div class="star"><img src="./star.png" alt="">
+                    <div class="star"><i class="fa-solid fa-star"></i>
                         <p>5.0</p>
                     </div>
                     <p>$25.50</p>
@@ -145,7 +157,7 @@
                     <button class="cart">Add To Cart</button>
                 </div>
                 <div class="rating">
-                    <div class="star"><img src="./star.png" alt="">
+                    <div class="star"><i class="fa-solid fa-star"></i>
                         <p>4.9</p>
                     </div>
                     <p>$12.00</p>
@@ -162,7 +174,7 @@
                     <button class="cart">Add To Cart</button>
                 </div>
                 <div class="rating">
-                    <div class="star"><img src="./star.png" alt="">
+                    <div class="star"><i class="fa-solid fa-star"></i>
                         <p>5.0</p>
                     </div>
                     <p>$18.50</p>
@@ -179,7 +191,7 @@
                     <button class="cart">Add To Cart</button>
                 </div>
                 <div class="rating">
-                    <div class="star"><img src="./star.png" alt="">
+                    <div class="star"><i class="fa-solid fa-star"></i>
                         <p>4.9</p>
                     </div>
                     <p>$25.00</p>
@@ -196,7 +208,7 @@
                     <button class="cart">Add To Cart</button>
                 </div>
                 <div class="rating">
-                    <div class="star"><img src="./star.png" alt="">
+                    <div class="star"><i class="fa-solid fa-star"></i>
                         <p>4.9</p>
                     </div>
                     <p>$15.00</p>
@@ -311,7 +323,7 @@
                +88 016 2499 4532
             </p>
             <div class="input-email">
-                <input type="email" placeholder="enter email.">
+                <input type="email" placeholder="Enter email.">
                 <div class="input-img">
                     <img src="./right-arrow.png" alt="">
                 </div>
