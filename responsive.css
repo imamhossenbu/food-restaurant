@@ -21,10 +21,14 @@
     .header-banner{
         width: 100%;
     }
+    .header-content{
+        width: 80%;
+    }
     .header-image{
         width: 100%;
         grid-template-columns: repeat(1,1fr);
         margin: 0;
+        /* gap: 0; */
     }
     
     .main-container{
